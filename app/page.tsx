@@ -2,6 +2,8 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <h1>Hello Cars24</h1>
+    <div>
+      <Image src={"/images/landing-page-cover.webp"} alt="cover" width={0} height={0} sizes="100vw" className="w-full"></Image>
+    </div>
   );
 }
