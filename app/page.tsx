@@ -1,9 +1,23 @@
-import Image from "next/image";
+import Image from 'next/image';
+import Carousel from "@/components/ui/Carousel";
+import CardImage from '@/components/ui/CardImage';
+import WhyBuyFromUs from '@/components/ui/WhyBuyFromUs';
+import BuyInEasySteps from '@/components/ui/BuyInEasySteps';
 
 export default function Home() {
+
+  
+
+
+
   return (
-    <div>
-      <Image src={"/images/landing-page-cover.webp"} alt="cover" width={0} height={0} sizes="100vw" className="w-full"></Image>
-    </div>
+    <>
+      <Carousel />
+      <CardImage />
+      <WhyBuyFromUs />
+      <BuyInEasySteps />
+      
+
+    </>
   );
 }
